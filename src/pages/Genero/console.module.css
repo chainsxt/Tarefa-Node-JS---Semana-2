@@ -1,0 +1,147 @@
+.containerPrincipal {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header img{
+width:20px;
+height: 20px;
+}
+
+.voltar {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #090937;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+}
+
+.voltar:hover {
+  color: var(--primary-purple);
+}
+
+.tituloGenero {
+  font-size: 24px;
+  font-weight: 700;
+  color: #090937;
+  margin: 0;
+}
+
+.barraPesquisa {
+  display: flex;
+  align-items: center;
+  background-color: #F4F4FF;
+  width: 800px;
+  height: 50px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  gap: 10px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.barraPesquisa img{
+width: 20px;
+height:20px;
+}
+
+.barraPesquisa input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+  color: #333;
+}
+
+.livrosGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.cardLivro {
+  width: 300px;
+  height: 433px;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  opacity: 1;
+  background-color: #f8f9ff;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.2s;
+  gap: 5px;
+  overflow: hidden;
+}
+
+.cardLivro:hover {
+  transform: translateY(-5px);
+}
+
+.capaContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #F4F4FF;
+}
+
+.capaContainer img {
+    width: 200px;
+    height: 285px;
+    border-radius: 4px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  
+}
+
+.infoLivro {
+  padding: 10px 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.titulo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #090937;
+  margin: 0;
+}
+
+.autor {
+  font-size: 16px;
+  color: #09093799;
+  margin: 0;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.preco {
+  color: #6251DD;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  white-space: nowrap;
+}

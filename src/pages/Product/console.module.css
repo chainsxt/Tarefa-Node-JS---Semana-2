@@ -1,0 +1,149 @@
+.containerPrincipal {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+.header {
+  margin-bottom: 30px;
+  
+}
+
+.btnVoltar {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.btnVoltar:hover {
+  color: #6c5ce7;
+}
+
+.conteudo {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.capaContainer {
+  background-color: #F4F4FF;
+  border-radius: 8px;
+  padding: 30px;
+  flex-shrink: 0;
+}
+
+.capaContainer img {
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+.detalhes{
+width: 209;
+height: 109;
+}
+
+.titulo {
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0;
+}
+
+.autor {
+  font-size: 32px;
+  font-weight: 600;
+  color: #00000099;
+  margin: 0;
+}
+
+.sinopse{
+
+    width: 820px;
+height: 373px;
+
+}
+.sinopse h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #090937;
+  margin: 0 0 8px 0;
+  margin-top: 50px;
+}
+
+.sinopse p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #09093799;
+  line-height: 1.7;
+  text-align: justify;
+  margin: 0;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-right: 100px;
+  align-self: flex-end;
+  width: 400px;
+  height: 60px;
+  border-radius: 4px;
+  overflow: hidden;
+
+}
+
+.preco {
+  background-color: #EF6B4A;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 14px 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  white-space: nowrap;
+}
+
+.btnCarrinho {
+  background-color: #EF6B4A;
+  color: #FFFFFF;
+  border: none;
+  flex: 1;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.btnAdicionado{
+  background-color:rgb(1, 1, 99);
+  color:white;
+  border: none;
+  flex: 1;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+
+.btnCarrinho:hover {
+  background-color: #d4522c;
+}
